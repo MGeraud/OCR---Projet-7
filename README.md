@@ -42,8 +42,8 @@ N'oubliez pas de démarrer vos bases de données.
 
 Pour chacun des fichiers du projet, ouvrez un terminal à la racine du de leur dossier et lancer la commande `mvn spring-boot:run` 
 
-Vous pouvez maintenant vous rendre su `localhost:9091` afin de voir ces différentes applications en action.
+Vous pouvez maintenant vous rendre à l'adresse  `localhost:9091` afin de voir ces différentes applications en action.
 
 ### Déploiement sur serveur :
 
-Pour un déploiement sur serveur, je vous conseille de créer un jar via la commande `mvn clean package` à la base des dossiers de 2 EST API(ocr_bibliotheque et ocr_loan_api) et les 2 applications (expired-loan-batch et ocr_webapp), puis de vous reporter à la documentation de votre serveur pour déployer ces jar et les bases de données dessus.
+Pour un déploiement sur serveur, je vous conseille de créer un jar via la commande `mvn clean package` à la base des dossiers de 2 REST API(ocr_bibliotheque et ocr_loan_api) et les 2 applications (expired-loan-batch et ocr_webapp), puis de vous reporter à la documentation de votre serveur pour y déployer ces jar et les bases de données.
