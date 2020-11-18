@@ -23,10 +23,7 @@ Dans ce projet, il est demandé de développer une API web (en REST ou SOAP), un
 
 ### Déploiement des différents services en local :
 
-Avant tout, il est nécessaire d'avoir une version de JDK 11 minimum sur votre machine. Pour l'installer, vous pouvez vous rendre par exemple sur l'un des sites suivant:
-    * https://adoptopenjdk.net/    
-    * https://www.oracle.com/java/technologies/javase-jdk11-downloads.html
-    * https://openjdk.java.net/
+Avant tout, il est nécessaire d'avoir une version de JDK 11 minimum sur votre machine. Pour l'installer, vous pouvez vous rendre par exemple sur l'un des sites suivant: https://adoptopenjdk.net/  ,  https://www.oracle.com/java/technologies/javase-jdk11-downloads.html ,  https://openjdk.java.net/
     
 Ensuite , installer Apache Maven : https://maven.apache.org/
 
