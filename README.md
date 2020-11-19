@@ -4,6 +4,12 @@ Projet 7 du parcours développeur d'application JAVA d'OpenClassRooms.
 
 Dans ce projet, il est demandé de développer une API web (en REST ou SOAP), une application web et un batch pour les bibliothèques d'une grande ville.
 
+Vous pouvez aussi retrouver les repositories individuels de ce projet avec les liens suivant :
+* microservice présentant le catalogue des bibliothèques : https://github.com/MGeraud/ocr_bibliotheque 
+* microservice gérant les prêts des ouvrages : https://github.com/MGeraud/ocr_loan_api
+* application web à destination des utilisateurs des bibliothèques de la ville : https://github.com/MGeraud/ocr_webapp
+* application batch pour la relance des utilisateur n'ayant pas ramené leur ouvrage à temps : https://github.com/MGeraud/expired-loan-batch
+
 ### Résumé du cahier des charges
 
 * Fonctionnalités attendues :
@@ -34,11 +40,13 @@ Une fois ces différents éléments installés, référez vous à la documentati
   * le catalogue de la bibliotheque
   * la gestion des prêts
   
-Dans le fichier application.properties (src>main>resources>application.properties), des REST api (ocr_bibliotheque et ocr_loan_api) ainsi que celui de l'application batch, il vous faudra renseigner le nom et mot de passe de l'utilisateur avec lequel vous avez créé vos bases de données (ocr_admin dans mes fichiers comme nom et mot de passe pour l'exemple)
+Dans le fichier *application.properties* (src>main>resources>application.properties), des REST api (ocr_bibliotheque et ocr_loan_api) ainsi que celui de l'application batch, **il vous faudra renseigner le nom et mot de passe de l'utilisateur avec lequel vous avez créé vos bases de données** (ocr_admin dans mes fichiers comme nom et mot de passe pour l'exemple)
 
 Pour pouvoir tester les 2 REST API(ocr_bibliotheque et ocr_loan_api) et les 2 applications (expired-loan-batch et ocr_webapp) vous trouverez dans chacun de leur dossier des scripts sql de création des tables et un de jeu de données de démonstration.
 
-N'oubliez pas de démarrer vos bases de données.
+**N'oubliez pas de démarrer vos bases de données.**
+
+Dans le fichier *application.properties* (src>main>resources>application.properties) de l'application batch (expired-loan-batch), **modifier l'email et mot de passe du mail d'envoi des relance** (votre.mail@gmail.com , motDePasse dans l'exemple)
 
 Pour chacun des fichiers du projet, ouvrez un terminal à la racine du de leur dossier et lancer la commande `mvn spring-boot:run` 
 
